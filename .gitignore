@@ -1,0 +1,21 @@
+# Datasets and trained model checkpoints (large; see data/README.md)
+data/*
+!data/README.md
+models/
+
+# Virtual environments
+.venv/
+venv/
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Hugging Face cache
+.cache/
+
+# IDEs / OS
+.idea/
+.vscode/
+.DS_Store
